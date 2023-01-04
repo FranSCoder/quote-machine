@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abyssinica SIL", sans-serif;
+}
+
+body {
+  background-color: #555;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  height: 250px;
+  padding: 20px 40px;
+  background-color: #d0d3d9;
+  border-radius: 5px;
+  border: solid 2px #505050;
+}
+#quote-box #text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 30%;
+  font-size: 1.5rem;
+}
+#quote-box #author {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: black;
+  height: 30%;
+  font-size: 1.2rem;
+}
+#quote-box #buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  margin: 0;
+}
+#quote-box #buttons .button {
+  display: flex;
+  align-items: center;
+}
+#quote-box #buttons .btn {
+  transition: none;
+  box-shadow: none;
+}
+#quote-box #buttons #tweet-quote {
+  text-decoration: none;
+  font-size: 2rem;
+  max-width: 100px;
+}
+#quote-box #buttons #new-quote {
+  display: block;
+  max-width: 120px;
+  max-height: 50px;
+  border: solid 2px #505050;
+  color: #000000;
+  font-weight: 500;
+  transition: box-shadow 0.2s;
+}
+#quote-box #buttons #new-quote:hover {
+  box-shadow: 0 0 15px #1DA1F2;
+}/*# sourceMappingURL=styles.css.map */
